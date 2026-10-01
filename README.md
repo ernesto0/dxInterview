@@ -8,6 +8,8 @@ _Describe what the application does and which API it integrates with._
 
 - **Goal:** Integrate with an external API and expose/consume its data in a clean, tested way.
 - **Status:** In progress
+- **Done:** Repository created and pushed to the remote.
+- **Next step:** Work on the API integration.
 
 ## Getting Started
 

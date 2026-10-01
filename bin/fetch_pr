@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+# Usage: bin/fetch_pr [owner/repo] [pr_number] [output.csv]
+# Set GITHUB_TOKEN for private repos or higher rate limits.
+require_relative "../lib/pr_fetcher"
+
+repo = ARGV[0] || "ernesto0/dxInterview"
+number = Integer(ARGV[1] || 1)
+output = ARGV[2] || "pr_#{number}.csv"
+
+begin
+  path = PrFetcher.new(repo: repo, number: number, token: ENV["GITHUB_TOKEN"]).write_csv(output)
+  puts "Wrote #{path}"
+rescue PrFetcher::Error => e
+  warn "Error: #{e.message}"
+  exit 1
+end

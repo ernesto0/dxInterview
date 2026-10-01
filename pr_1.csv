@@ -1,0 +1,2 @@
+pr_number,author_login,author_id,author_name,author_email,author_company,author_location,author_public_repos,author_created_at,author_url,merged_by_login,merged_by_id,merged_by_name,merged_by_email,merged_by_company,merged_by_location,merged_by_public_repos,merged_by_created_at,merged_by_url,additions,deletions,created_at,merged_at,time_to_merge_seconds,time_to_merge
+1,ernesto0,30987669,,,,,2,2017-08-13T21:20:13Z,https://github.com/ernesto0,ernesto0,30987669,,,,,2,2017-08-13T21:20:13Z,https://github.com/ernesto0,2,0,2026-10-01T14:39:17Z,2026-10-01T14:40:08Z,51,00:00:51
